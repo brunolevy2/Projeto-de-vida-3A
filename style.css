@@ -48,4 +48,19 @@ body{
     border-left: 4px solid var(--botao-ativo);
     border-right: 4px solid var(--botao-ativo);
     border-top: none;
+}    
+    
+.botao:first-child{
+    border-radius:40px 40px 0 0;
+}
+
+.botao{
+    display:flex;
+}
+
+@media screen and (min-width: 768 px){
+        .botoes{
+            display: flex;
+    }
+    }
     
